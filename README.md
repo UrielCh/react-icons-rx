@@ -23,17 +23,25 @@ For a transparent usage:
 
 ## Direct import sample
 
-`import { RxAccessibility } from "https://deno.land/x/react_icons_rx@1.0.1/mod.ts"`
+```ts
+import { RxAccessibility } from "https://deno.land/x/react_icons_rx@1.0.1/mod.ts"
+```
 
 ## import_map import sample
 
-`import { RxAccessibility } from "react-icons/rx"`
+```ts
+import { RxAccessibility } from "react-icons/rx"
+```
 
 ## minimal import
 
-`import { RxAccessibility } from "react-icons/rx/RxAccessibility.ts"`
+```ts
+import { RxAccessibility } from "react-icons/rx/RxAccessibility.ts"
+```
 
-## minimal import default
+## minimal import using default export
 
-`import RxAccessibility from "react-icons/rx/RxAccessibility.ts"`
+```ts
+import RxAccessibility from "react-icons/rx/RxAccessibility.ts"
+```
 
