@@ -15,20 +15,29 @@
  * ```json
  * {
  *   "imports": {
- *     "preact": "https://esm.sh/preact@10.15.1",
+ *     "preact":  "https://esm.sh/preact@10.15.1",
  *     "preact/": "https://esm.sh/preact@10.15.1/",
- *     "react-icons/rx": "https://deno.land/x/react_icons_rx@1.0.0//mod.ts",
+ *     "react-icons/rx":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-rx@1.0.1/mod.ts",
+ *     "react-icons/rx/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-rx/ico/",
  *   }
  * }
  * ```
  * 
  * ## Direct import sample
  * 
- * `import { RxAccessibility } from "https://deno.land/x/react_icons_rx@1.0.0/mod.ts"`
+ * `import { RxAccessibility } from "https://deno.land/x/react_icons_rx@1.0.1/mod.ts"`
  * 
  * ## import_map import sample
  * 
  * `import { RxAccessibility } from "react-icons/rx"`
+ * 
+ * ## minimal import
+ * 
+ * `import { RxAccessibility } from "react-icons/rx/RxAccessibility.ts"`
+ * 
+ * ## minimal import default
+ * 
+ * `import RxAccessibility from "react-icons/rx/RxAccessibility.ts"`
  * 
  * @module
  */
