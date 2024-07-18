@@ -44,7 +44,7 @@
  * or using default export
  * 
  * ```ts
- * import RxAccessibility from "react-icons/rx/RxAccessibility.ts"
+ * import RxAccessibility from "react-icons/rx/RxAccessibility"
  * ```
  * @module
  * 
