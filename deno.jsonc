@@ -2,7 +2,7 @@
   "lock": false,
   "name": "@preact-icons/rx",
   "license": "MIT",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "exports": {
     ".": "./mod.ts",
     "./RxAccessibility": "./ico/RxAccessibility.ts",
